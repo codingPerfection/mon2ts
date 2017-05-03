@@ -1,5 +1,5 @@
 {
-  "name": "mongoose2typescript",
+  "name": "mon2ts",
   "version": "1.0.0",
   "description": "Generate typescript classes from mongoose models",
   "main": "generate.js",
