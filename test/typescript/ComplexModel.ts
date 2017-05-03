@@ -1,22 +1,22 @@
 import { NestedArray as NestedArray } from "./NestedArray" 
-export class Workinghour {
+export interface Workinghour {
     name:String
     from:String
     to:String
     closed:Boolean
     _id:String
 }
-export class Nestedobj {
+export interface Nestedobj {
     stuff:String
     _id:String
 }
-export class Nestedarray {
+export interface Nestedarray {
     name:String
     surname:String
     price:Number
     _id:String
 }
-export class ComplexModel {
+export interface ComplexModel {
     workingHours:Array<Workinghour>
     neighbourhoods:Array<String | NestedArray>
     str:String

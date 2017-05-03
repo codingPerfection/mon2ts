@@ -18,7 +18,7 @@ module.exports = (json) => {
     }
 
     function generateClass(c) {
-        let str = 'export class ' + c.name + ' {' + "\n";
+        let str = 'export interface ' + c.name + ' {' + "\n";
         for (let m of c.members) {
             str += "    " + generateMember(m) + "\n";
         }

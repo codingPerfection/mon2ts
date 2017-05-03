@@ -1,13 +1,13 @@
-export class Dish {
+export interface Dish {
     name:String
     price:Number
     _id:String
 }
-export class Dish1 {
+export interface Dish1 {
     name:String
     _id:String
 }
-export class NestedArray {
+export interface NestedArray {
     dishes:Array<Array<Array<Dish | Array<Dish1>>>>
     _id:String
 }

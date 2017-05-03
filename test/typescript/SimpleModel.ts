@@ -1,4 +1,4 @@
-export class SimpleModel {
+export interface SimpleModel {
     str:String
     binary:any
     living:Boolean

@@ -1,16 +1,16 @@
 import { SimpleModel as SimpleModel } from "./SimpleModel" 
-export class Day {
+export interface Day {
     dayOfWeek:Number
     _id:String
 }
-export class Workinghour {
+export interface Workinghour {
     start:String
     end:String
     day:Day
     delivery:String | SimpleModel
     _id:String
 }
-export class NestedClasses {
+export interface NestedClasses {
     workingHours:Day
     _id:String
 }
