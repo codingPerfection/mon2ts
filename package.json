@@ -6,10 +6,9 @@
   "dependencies": {
     "chai": "^3.5.0",
     "inflection": "^1.12.0",
-    "mocha": "^3.3.0",
     "mongoose": "^4.9.7"
   },
   "devDependencies": {},
-  "author": "Vjeran Fistric - codingperfection.com",
+  "author": "codingperfection.com - Vjeran Fistric",
   "license": "ISC"
 }
