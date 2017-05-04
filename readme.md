@@ -1,4 +1,4 @@
-# Mongoose models to Typescript classes generator
+# Mongoose models to Typescript interfaces generator
 
 [![N|Solid](http://codingperfection.com/static/poweredBy.png)](http://codingperfection.com)
 
@@ -22,9 +22,9 @@ let str = m2t(model);
 ### Additional info:
 Script automatically generates import statements for referred models & additional interfaces for nested objects. Accepted type for referred mongoose model is either id or populated interface.
 
-[Example mongoose models](./test/mongoose/)
+<!--[Example mongoose models](./test/mongoose/)
 
-[Example typescript interfaces](./test/typescript/)
+[Example typescript interfaces](./test/typescript/)-->
 
 <!--### Automate workflow
 Click the link below to learn whats the use of interfaces in angular 4
