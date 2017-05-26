@@ -112,6 +112,8 @@ module.exports = (model) => {
             n = "String";
         } else if (n == 'Buffer') {
             n = 'any'
+        }else if(n == 'Number'){
+            n = 'number';
         }
         return {
             key: key,
